@@ -1,0 +1,299 @@
+    
+/* CSS for nav.php from here*/
+    .loginFail{
+        width:100%;
+        padding:10px;
+        position:relative;
+    }
+    .ico{
+        display: inline-block;
+        width:15px;
+    }
+    .linetext{
+        line-height:35px;
+    }
+    .nomar{
+        margin-left:-5px;
+    }
+    form .short{
+        font-weight:bold;
+        color:#FF0000;
+        font-size:larger;
+        line-height:35px;
+    }
+    form .weak{
+        font-weight:bold;
+        color:orange;
+        font-size:larger;
+        line-height:35px;
+    }
+    form .good{
+        font-weight:bold;
+        color:#2D98F3;
+        font-size:larger;
+        line-height:35px;
+    }
+    form .strong{
+        font-weight:bold;
+        color: limegreen;
+        font-size:larger;
+        line-height:35px;
+    }
+
+    #login{
+        background-position:-216px 0;
+    }
+    #confirm,#result,#cUsername{
+        font-size:12px;
+    }
+    /* CSS for login/Signup upto here */
+
+    /* button for nav login */
+    .navSprite{ 
+        background-color:#06083B;
+        z-index:2;
+    }
+    .bnt{
+        background:transparent; 
+        border:none;
+        float:right;
+    }
+
+    /* Image Sprite */
+    .imgNav{
+        background:url('../images/imgSprite.png');
+        display:inline-block;
+        width:40px;
+        height:40px;
+    }
+    
+    .linkLabel{
+        line-height:35px;
+        font-size:18px;
+        float:right;
+        margin-right:3px;
+    }
+    #home{
+        background-position:0 0;
+    }
+    #ihome:hover>#home{
+        transition:1s;
+        background-position: 0 -42px;
+    }
+
+    #events{
+        background-position:-43px 0;
+    }
+    #ievents:hover>#events{
+        transition:1s;
+        background-position: -43px -42px;
+    }
+
+    #sports{
+        background-position:-86px 0;
+    }
+    #isports:hover>#sports{
+        transition:1s;
+        background-position: -86px -42px;
+    }
+
+    #forum{
+        background-position:-129px 0;
+    }
+    #iforum:hover>#forum{
+        transition:1s;
+        background-position: -129px -42px;
+    }
+
+    #more{
+        background-position:-172px 0;
+    }
+    #imore:hover>#more{
+        transition:1s;
+        background-position: -172px -42px;
+    }
+
+/* CSS for nav.php up to here*/
+
+
+/* Visitor Counter in index.php */
+.visc{
+    background-color:#040527;
+}
+
+
+/* CSS for Profile.php */
+.divProfile{
+    box-sizing :border-box;
+    background: #fff;
+}
+
+/* CSS for sports.php and event.php */
+.img-sport{
+    width: 100% !important;   
+}
+
+.tophd{
+    margin:0;
+    padding:0;
+    font-family:Century;
+    font-size:40px;
+    color:#0d627a;
+}
+
+/* CSS for Chat */
+.chat{
+    right:2%;
+    bottom:8%;
+    position:fixed;
+    z-index: 99999;
+}
+.message-icon{
+    width:60px;
+    height:60px;
+    background-color:rgb(42, 71, 165);
+    float:right;
+}
+.message-icon img{
+    margin: 15px 15px;
+    position: absolute;
+}
+.message-box{
+    width: 300px;
+    height:350px;
+    background-color:azure;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px black;
+    font-size: 13px;
+}
+.message-history{
+    width:95%;
+    height:300px;
+    margin:0 auto;
+    padding:10px;
+    overflow:auto;
+}
+/* CSS for Chat upto here */
+
+/* Image Slider(index.php) CSS */
+.imgSlider{
+    width:1300px;
+    height:500px;
+    /* border:0.02px solid grey; */
+    margin:0 auto 5px auto;
+    position:relative;
+    overflow:hidden;
+}
+.imgSlider img{
+    width:100%;
+    position:absolute;
+}
+#leftMover,#rightMover{
+    width:60px;
+    height:100%;
+    position:relative;
+}
+#leftMover{
+    float:left;
+}
+#rightMover{
+    float:right;
+}
+#leftMover img, #rightMover img{
+    width:60px;
+    height:80px;
+    top:40%;
+    opacity:0.5;
+}
+@media (max-width: 1320px){
+    .imgSlider{
+        width:1100px;
+        height:500px;
+    }
+}
+@media (max-width: 1120px){
+    .imgSlider{
+        width:1000px;
+        height:500px;
+    }
+}
+@media (max-width: 1020px){
+    .imgSlider{
+        width:850px;
+        height:400px;
+    }
+}
+@media (max-width: 860px){
+    .imgSlider{
+        width:720px;
+        height:300px;
+    }
+}
+
+@media (max-width: 730px){
+    .imgSlider{
+        width:500px;
+        height:282px;
+    }
+
+    #leftMover img, #rightMover img{
+        width:50px;
+        height:60px;
+    }
+}
+@media (max-width: 540px){
+    .imgSlider{
+        width:330px;
+        height:186px;
+    }
+    #leftMover img, #rightMover img{
+        width:30px;
+        height:45px;
+    }
+    #leftMover,#rightMover{
+        width:40px;
+    }
+} 
+/* Image Slider upto here*/
+
+
+/* CSS for Footer */
+footer{
+    background-color:#06083B;
+}
+footer h2{
+    color:oldlace;
+}
+footer p{
+    color:moccasin;
+}
+footer .ps_icon img{
+    height:50px;
+    margin-top:-7px;
+}
+.lower-footer{
+    color:aliceblue;
+    background-color:#040527;
+}
+.smLinks ul{
+    list-style: none;
+}
+.smLinks ul li{
+    float:left;
+    
+}
+.smLinks img{
+    width:25px;
+    height:25px;
+    margin: 0 5px;
+}
+.smLinks img:hover{
+    opacity:.4;
+}
+
+/* nlForm has been used in other forms as well */
+.nlForm{
+    width:90%;
+    margin:5px auto;
+}
+/* CSS for footer upto here */
